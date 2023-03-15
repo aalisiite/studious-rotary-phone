@@ -18,7 +18,7 @@ export default function Layout({ children, home }) {
                 />
                 <meta
                     property="og:image"
-                    content={`https://www.flaticon.com/free-icons/analysis`}
+                    content={`https://cdn.iconscout.com/icon/free/png-256/category-2456667-2036121.png`}
                 />
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
