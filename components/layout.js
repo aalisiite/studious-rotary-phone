@@ -5,16 +5,16 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const name = "Alise Alka";
-export const siteTitle = "Next.js Sample Website";
+export const siteTitle = "Software Developer notes";
 
 export default function Layout({ children, home }) {
     return (
         <div className={styles.container}>
             <Head>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/url.ico" />
                 <meta
                     name="description"
-                    content="Learn how to build a personal website using Next.js"
+                    content="Personal notes that helps to understand various processes."
                 />
                 <meta
                     property="og:image"
